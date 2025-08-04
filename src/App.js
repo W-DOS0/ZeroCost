@@ -1,5 +1,5 @@
 import { useState, useContext } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { UserContext } from './contexts';
 import { Header } from './components/Header';
 import { SearchFilters } from './components/SearchFilters';
@@ -16,7 +16,7 @@ const App = () => {
   const { showUserSetup } = useContext(UserContext);
   
   return (
-    <Router>
+    <Router >
       <div className="min-h-screen flex flex-col bg-gray-50 dark:bg-gray-900">
         <Header />
         
