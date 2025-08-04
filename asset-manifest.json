@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/ZeroCost/static/css/main.29b43721.css",
-    "main.js": "/ZeroCost/static/js/main.1e073959.js",
+    "main.js": "/ZeroCost/static/js/main.9b025a41.js",
     "index.html": "/ZeroCost/index.html",
     "main.29b43721.css.map": "/ZeroCost/static/css/main.29b43721.css.map",
-    "main.1e073959.js.map": "/ZeroCost/static/js/main.1e073959.js.map"
+    "main.9b025a41.js.map": "/ZeroCost/static/js/main.9b025a41.js.map"
   },
   "entrypoints": [
     "static/css/main.29b43721.css",
-    "static/js/main.1e073959.js"
+    "static/js/main.9b025a41.js"
   ]
 }
