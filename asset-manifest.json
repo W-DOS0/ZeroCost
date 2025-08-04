@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ZeroCost/static/css/main.29b43721.css",
+    "main.js": "/ZeroCost/static/js/main.de54cecf.js",
+    "index.html": "/ZeroCost/index.html",
+    "main.29b43721.css.map": "/ZeroCost/static/css/main.29b43721.css.map",
+    "main.de54cecf.js.map": "/ZeroCost/static/js/main.de54cecf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.29b43721.css",
+    "static/js/main.de54cecf.js"
+  ]
+}
