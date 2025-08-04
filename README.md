@@ -1,70 +1,109 @@
-# Getting Started with Create React App
+# ZeroCost
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Community-driven platform for free item sharing  
+Reduce waste and help others by giving and taking items for free
 
-## Available Scripts
+![ZeroCost Logo](favicon.ico)
 
-In the project directory, you can run:
+ZeroCost is a platform where users can post free listings of items they want to give away, browse items offered by others, and claim what they need. The goal is to foster a sharing community, reduce waste, and support sustainability.
 
-### `npm start`
+![Screenshot](screenshot.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Home**: Browse free listings with search and filter options  
+- **User Profiles**: Manage your shared items and claims  
+- **Add Listings**: Easily post items you want to give away  
+- **Community Interaction**: User setup, notifications, and engagement  
+- **Responsive UI**: Clean and modern design powered by React and Tailwind CSS  
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
 
-### `npm run build`
+- Node.js (v14 or higher)  
+- npm or yarn  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Installation & Running
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### Local Setup
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Clone the repository:
+Clone the repository:
 
-### `npm run eject`
+```bash
+git clone https://github.com/your-username/zero-cost.git
+cd zero-cost
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Install dependencies:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Start the development server:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm run dev
+```
 
-## Learn More
+Open http://localhost:3000 in your browser.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Production & Deployment
 
-### Code Splitting
+Build for production
+```bash
+npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+The build output will be generated in the dist folder, ready to deploy to any static web server.
 
-### Analyzing the Bundle Size
+### Deploy to GitHub Pages
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+The app is configured to run in the /zero-cost/ subfolder.
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Contributing
 
-### Advanced Configuration
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Fork the repository
 
-### Deployment
+Create a feature branch:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```bash
+git checkout -b feature/YourFeature
+```
 
-### `npm run build` fails to minify
+Commit your changes:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+git commit -m "Add your feature description"
+```
+
+Push the branch:
+
+```bash
+git push origin feature/YourFeature
+```
+
+Open a pull request on GitHub.
+
+
+## Acknowledgements
+
+- **React** — for the powerful UI framework \n
+- **Tailwind CSS** — for flexible, fast styling
+- **React Router** — for client-side routing
+- **FontAwesome** — for icons
+
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+MIT © 2025 ZeroCost
+See [LICENSE](./LICENSE) for details.
+
