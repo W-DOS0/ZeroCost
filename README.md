@@ -32,8 +32,8 @@ Clone the repository:
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/zero-cost.git
-cd zero-cost
+git clone https://github.com/W-DOS0/ZeroCost.git
+cd ZeroCost
 ```
 
 Install dependencies:
@@ -62,7 +62,7 @@ The build output will be generated in the dist folder, ready to deploy to any st
 
 ### Deploy to GitHub Pages
 
-The app is configured to run in the /zero-cost/ subfolder.
+The app is configured to run in the /ZeroCost/ subfolder.
 
 
 ## Contributing
